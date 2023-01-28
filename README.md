@@ -6,7 +6,9 @@
   - [Demo](#demo)
   - [Overview](#overview)
   - [Motivation](#motivation)
-  - [Installation](#installation)
+- [:key: Prerequisites](#key-prerequisites)
+- [🚀  Installation](#-installation)
+- [:bulb: How to Run](#bulb-how-to-run)
   - [Directory Tree](#directory-tree)
   - [Technologies Used](#technologies-used)
   - [Future Scope](#future-scope)
@@ -17,9 +19,8 @@
 
 
 ## Demo
-Link: [https://flight-price-prediction-api.herokuapp.com/](https://flight-price-prediction-api.herokuapp.com/)
 
-[![](assets/main.png)](https://flight-price-prediction-api.herokuapp.com/)
+[![](assets/main.png)](https://github.com/Chaganti-Reddy/Flight-Fare-Prediction)
 
 ## Overview
 This is a Flask web app which predicts fare of Flight ticket.
@@ -27,10 +28,43 @@ This is a Flask web app which predicts fare of Flight ticket.
 ## Motivation
 What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
 
-## Installation
-The Code is written in Python 3.7. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+# :key: Prerequisites
+
+All the dependencies and required libraries are included in the file <code>requirements.txt</code> [See here](requirements.txt)
+
+# 🚀&nbsp; Installation
+
+The Code is written in Python 3.7. If you don&rsquo;t have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
+
+1. Clone the repo
+
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/Chaganti-Reddy/Flight-Fare-Prediction.git
+```
+
+2. Change your directory to the cloned repo
+
+```bash
+cd Flight-Fare-Prediction
+```
+
+3. Now, run the following command in your Terminal/Command Prompt to install the libraries required
+
+```bash
+python3 -m virtualenv my_env
+
+source my_env/bin/activate
+
+pip3 install -r requirements.txt
+
+```
+
+# :bulb: How to Run
+
+1. Open terminal. Go into the cloned project directory and type the following command:
+
+```bash
+python3 app.py
 ```
 
 
